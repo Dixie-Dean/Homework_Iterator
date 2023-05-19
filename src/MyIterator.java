@@ -9,7 +9,7 @@ public class MyIterator implements Iterator<Integer> {
 
     @Override
     public boolean hasNext() {
-        return randoms.value != Integer.MAX_VALUE;
+        return true;
     }
 
     @Override
